@@ -1,0 +1,28 @@
+O código realiza os seguintes passos:
+
+1. Leitura dos Dados:
+    O arquivo advertising.csv é carregado usando Pandas.
+
+2. Análise Exploratória:
+    Um gráfico de correlação (heatmap) é gerado para entender quais investimentos mais influenciam as vendas.
+
+3. Preparação dos Dados:
+    Separa os dados em variáveis independentes (TV, Radio, Jornal) e variável dependente (Vendas).
+    Divide os dados em treino e teste (80% treino, 20% teste).
+
+4.Treinamento dos Modelos:
+    Dois modelos de Machine Learning são treinados:
+        Regressão Linear
+        Árvore de Decisão (Random Forest)
+
+5.Avaliação dos Modelos:
+    Faz previsões no conjunto de teste e calcula a métrica R² para medir a precisão.
+    O modelo com maior R² é escolhido como o melhor.
+
+6. Visualização dos Resultados:
+    Um gráfico de linha é gerado para comparar os valores reais e as previsões.
+
+7. Previsões Futuras:
+    Um novo conjunto de dados (novos.csv) é lido e processado pelo melhor modelo para prever novas vendas.
+
+Para dúvidas, consulte o README.md ou entre em contato!
